@@ -8,16 +8,16 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "ויקי מתמטיקה",
+    pageTitleSuffix: " | Math Wiki",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    locale: "he-IL",
+    baseUrl: "maorkertsman.github.io/math-wiki",
+    ignorePatterns: ["private", "templates", ".obsidian", "תרגולים"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

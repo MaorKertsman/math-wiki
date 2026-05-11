@@ -1,3 +1,42 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// RTL support for Hebrew content
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+// Keep these LTR
+.sidebar,
+nav,
+.toc,
+code,
+pre,
+.katex,
+.katex-display {
+  direction: ltr;
+  text-align: left;
+}
+
+// Tables RTL with LTR math/code inside cells
+table {
+  direction: rtl;
+  text-align: right;
+
+  code,
+  pre,
+  .katex,
+  .katex-display {
+    direction: ltr;
+    text-align: left;
+  }
+}
+
+input[type="text"] {
+  direction: ltr;
+}
+
+.breadcrumb-container,
+.tags {
+  direction: ltr;
+}

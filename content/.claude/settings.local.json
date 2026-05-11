@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\maork\\\\vaults\\\\math-wiki\\\\content\" -Recurse -Directory | ForEach-Object { $_.FullName } | Sort-Object)",
+      "PowerShell(head *)",
+      "PowerShell(tree \"C:\\\\Users\\\\maork\\\\vaults\\\\math-wiki\\\\content\" -I '.obsidian|.claude' -L 3)"
+    ]
+  }
+}
