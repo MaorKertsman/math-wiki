@@ -3,7 +3,10 @@
     "allow": [
       "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\maork\\\\vaults\\\\math-wiki\\\\content\" -Recurse -Directory | ForEach-Object { $_.FullName } | Sort-Object)",
       "PowerShell(head *)",
-      "PowerShell(tree \"C:\\\\Users\\\\maork\\\\vaults\\\\math-wiki\\\\content\" -I '.obsidian|.claude' -L 3)"
+      "PowerShell(tree \"C:\\\\Users\\\\maork\\\\vaults\\\\math-wiki\\\\content\" -I '.obsidian|.claude' -L 3)",
+      "WebFetch(domain:visual-ocr-notes-production.up.railway.app)",
+      "Bash(curl -s \"https://visual-ocr-notes-production.up.railway.app/api/course/%D7%9C%D7%99%D7%A0%D7%99%D7%90%D7%A8%D7%99%D7%AA%202/lecture/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%2012%20-%20%D7%9C%D7%9B%D7%A1%D7%95%D7%9F%20%D7%A1%D7%99%D7%9E%D7%95%D7%9C%D7%98%D7%A0%D7%99%20%D7%95%D7%A6%D7%95%D7%A8%D7%AA%20%D7%96%D7%95%D7%A8%D7%93%D7%9F\")",
+      "Bash(curl -s \"https://visual-ocr-notes-production.up.railway.app/assets/index-CXBFQSf2.js\")"
     ]
   }
 }
